@@ -23,7 +23,7 @@ npm run preview
 1. Create a **public** GitHub repository named `rakovicm.github.io` (user site) on the `rakovicm` account.
 2. Push this project to that repository’s `main` branch.
 3. In the repo: **Settings → Pages → Source → GitHub Actions**.
-4. The workflow in `.github/workflows/pages.yml` builds and deploys on every push to `main`.
+4. The workflow in `.github/workflows/deploy.yml` builds and deploys on every push to `main`.
 
 After the first successful run the site is at `https://rakovicm.github.io`.
 
