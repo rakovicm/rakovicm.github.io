@@ -41,3 +41,5 @@ Then the URL is `https://rakovicm.github.io/your-repo-name/`.
 - GitHub username used by the live repo list: `githubUsername` in that file
 
 Citation counts are a snapshot from Google Scholar and should be updated there when you want them refreshed.
+
+The header sun/moon control switches light and dark. The choice is stored in the browser; first visit follows the system theme.

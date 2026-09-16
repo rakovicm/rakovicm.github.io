@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react'
+import { ThemeToggle } from '@/components/theme-toggle'
 import { Button } from '@/components/ui/button'
 import { site } from '@/data/site'
 
@@ -56,6 +57,7 @@ export function SiteHeader() {
               </a>
             ))}
           </nav>
+          <ThemeToggle />
           <Button asChild size="sm">
             <a href={site.links.github} target="_blank" rel="noreferrer">
               GitHub
